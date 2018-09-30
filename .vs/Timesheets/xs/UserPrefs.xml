@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{3800AE80-1DBB-4B02-A90A-300320D890A1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Timesheets Status">
+    <Files>
+      <File FileName="Timesheets/Views/ItemDetailPage.xaml" Line="9" Column="15" />
+      <File FileName="Timesheets/Views/ItemsPage.xaml" Line="26" Column="15" />
+      <File FileName="Timesheets/Views/NewItemPage.xaml" Line="27" Column="15" />
+      <File FileName="Timesheets/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="Timesheets/ViewModels/BaseViewModel.cs" Line="35" Column="27" />
+      <File FileName="Timesheets/ViewModels/ItemDetailViewModel.cs" Line="1" Column="1" />
+      <File FileName="Timesheets/Models/Item.cs" Line="8" Column="36" />
+      <File FileName="Timesheets/Models/HomeMenuItem.cs" Line="1" Column="1" />
+      <File FileName="Timesheets/Services/IDataStore.cs" Line="7" Column="32" />
+      <File FileName="Timesheets/Services/MockDataStore.cs" Line="73" Column="13" />
+      <File FileName="Timesheets/ViewModels/ItemsViewModel.cs" Line="30" Column="10" />
+      <File FileName="Timesheets Status" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Timesheets" expanded="True">
+            <Node name="Timesheets" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Item.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Timesheets.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D6D51206-D548-4936-8E21-F838B55FA45D" />
+  <MonoDevelop.Ide.ItemProperties.Timesheets.Android PreferredExecutionTarget="Android.my_2" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MultiItemStartupConfigurations />
+</Properties>
