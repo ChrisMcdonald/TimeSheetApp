@@ -2093,11 +2093,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mrc/Projects/Timesheets/Timesheets.iOS/Timesheets.iOS.csproj",
+      "projectUniqueName": "/Users/mrc/Projects/TimesheetApp/Timesheets.iOS/Timesheets.iOS.csproj",
       "projectName": "Timesheets.iOS",
-      "projectPath": "/Users/mrc/Projects/Timesheets/Timesheets.iOS/Timesheets.iOS.csproj",
+      "projectPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.iOS/Timesheets.iOS.csproj",
       "packagesPath": "/Users/mrc/.nuget/packages/",
-      "outputPath": "/Users/mrc/Projects/Timesheets/Timesheets.iOS/obj",
+      "outputPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mrc/.config/NuGet/NuGet.Config"
@@ -2111,17 +2111,11 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/mrc/Projects/Timesheets/Timesheets/Timesheets.csproj": {
-              "projectPath": "/Users/mrc/Projects/Timesheets/Timesheets/Timesheets.csproj"
+            "/Users/mrc/Projects/TimesheetApp/Timesheets/Timesheets.csproj": {
+              "projectPath": "/Users/mrc/Projects/TimesheetApp/Timesheets/Timesheets.csproj"
             }
           }
         }
-      }
-    },
-    "dependencies": {
-      "Realm": {
-        "target": "Package",
-        "version": "[3.2.1, )"
       }
     },
     "frameworks": {
@@ -2134,6 +2128,10 @@
           "Xamarin.TestCloud.Agent": {
             "target": "Package",
             "version": "0.21.5"
+          },
+          "Realm": {
+            "target": "Package",
+            "version": "3.2.1"
           }
         }
       }

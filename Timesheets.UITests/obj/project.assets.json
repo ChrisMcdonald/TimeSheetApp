@@ -125,11 +125,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mrc/Projects/Timesheets/Timesheets.UITests/Timesheets.UITests.csproj",
+      "projectUniqueName": "/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/Timesheets.UITests.csproj",
       "projectName": "Timesheets.UITests",
-      "projectPath": "/Users/mrc/Projects/Timesheets/Timesheets.UITests/Timesheets.UITests.csproj",
+      "projectPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/Timesheets.UITests.csproj",
       "packagesPath": "/Users/mrc/.nuget/packages/",
-      "outputPath": "/Users/mrc/Projects/Timesheets/Timesheets.UITests/obj",
+      "outputPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mrc/.config/NuGet/NuGet.Config"

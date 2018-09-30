@@ -3601,11 +3601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mrc/Projects/Timesheets/Timesheets/Timesheets.csproj",
+      "projectUniqueName": "/Users/mrc/Projects/TimesheetApp/Timesheets/Timesheets.csproj",
       "projectName": "Timesheets",
-      "projectPath": "/Users/mrc/Projects/Timesheets/Timesheets/Timesheets.csproj",
+      "projectPath": "/Users/mrc/Projects/TimesheetApp/Timesheets/Timesheets.csproj",
       "packagesPath": "/Users/mrc/.nuget/packages/",
-      "outputPath": "/Users/mrc/Projects/Timesheets/Timesheets/obj",
+      "outputPath": "/Users/mrc/Projects/TimesheetApp/Timesheets/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

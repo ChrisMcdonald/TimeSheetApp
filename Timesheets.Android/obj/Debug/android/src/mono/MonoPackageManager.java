@@ -108,6 +108,12 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Timesheets.Android.dll" comes first in this list. */
 		"Timesheets.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"Realm.DataBinding.dll",
+		"Realm.dll",
+		"Realm.Sync.dll",
+		"Remotion.Linq.dll",
+		"System.Runtime.CompilerServices.Unsafe.dll",
 		"Timesheets.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

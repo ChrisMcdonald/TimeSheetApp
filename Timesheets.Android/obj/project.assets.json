@@ -1604,11 +1604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mrc/Projects/Timesheets/Timesheets.Android/Timesheets.Android.csproj",
+      "projectUniqueName": "/Users/mrc/Projects/TimesheetApp/Timesheets.Android/Timesheets.Android.csproj",
       "projectName": "Timesheets.Android",
-      "projectPath": "/Users/mrc/Projects/Timesheets/Timesheets.Android/Timesheets.Android.csproj",
+      "projectPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.Android/Timesheets.Android.csproj",
       "packagesPath": "/Users/mrc/.nuget/packages/",
-      "outputPath": "/Users/mrc/Projects/Timesheets/Timesheets.Android/obj",
+      "outputPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mrc/.config/NuGet/NuGet.Config"
@@ -1622,17 +1622,11 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/mrc/Projects/Timesheets/Timesheets/Timesheets.csproj": {
-              "projectPath": "/Users/mrc/Projects/Timesheets/Timesheets/Timesheets.csproj"
+            "/Users/mrc/Projects/TimesheetApp/Timesheets/Timesheets.csproj": {
+              "projectPath": "/Users/mrc/Projects/TimesheetApp/Timesheets/Timesheets.csproj"
             }
           }
         }
-      }
-    },
-    "dependencies": {
-      "Realm": {
-        "target": "Package",
-        "version": "[3.2.1, )"
       }
     },
     "frameworks": {
@@ -1661,6 +1655,10 @@
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
             "version": "27.0.2.1"
+          },
+          "Realm": {
+            "target": "Package",
+            "version": "3.2.1"
           }
         }
       }
