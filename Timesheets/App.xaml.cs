@@ -14,7 +14,8 @@ namespace Timesheets
             InitializeComponent();
 
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new CalendarPage());
         }
 
         protected override void OnStart()

@@ -18,18 +18,18 @@ namespace Timesheets.Services
             this.RealmInstance = Realm.GetInstance();
             items = new List<Item>();
 
-            int month = DateTime.Now.Month;
-            int year = DateTime.Now.Year;
-            int days = DateTime.DaysInMonth(year,month);
-           
-            for (int day = 1; day < days + 1 ; day++)
-            {
-                DateTime dateTime = new DateTime(year, month, day);
-                Item item = new Item { Id = Guid.NewGuid().ToString(), Text = dateTime.ToLongDateString(), Description = "This is an item description." };
-                //    new Item      { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." },
-
-                items.Add(item);
-            }
+//            int month = DateTime.Now.Month;
+//            int year = DateTime.Now.Year;
+//            int days = DateTime.DaysInMonth(year,month);
+//           
+//            for (int day = 1; day < days + 1 ; day++)
+//            {
+//                DateTime dateTime = new DateTime(year, month, day);
+//                Item item = new Item { Id = Guid.NewGuid().ToString(), Text = dateTime.ToLongDateString(), Description = "This is an item description." };
+//                //    new Item      { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." },
+//
+//                items.Add(item);
+//            }
             //var mockItems = new List<Item>
             //{
             //    new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },

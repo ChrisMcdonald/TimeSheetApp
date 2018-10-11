@@ -532,11 +532,26 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
+      "XamForms.Controls.Calendar/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/MonoAndroid10/XamForms.Controls.Calendar.Droid.dll": {},
+          "lib/MonoAndroid10/XamForms.Controls.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/XamForms.Controls.Calendar.Droid.dll": {},
+          "lib/MonoAndroid10/XamForms.Controls.Calendar.dll": {}
+        }
+      },
       "Timesheets/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Realm": "3.2.1",
+          "XamForms.Controls.Calendar": "1.1.1",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -1580,6 +1595,28 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "XamForms.Controls.Calendar/1.1.1": {
+      "sha512": "GCydwm9HO+8V4iGVsGJZtnHJaqIpjas40BSRU+T7lIM7E4nZ7pOn2Ifzu0Y6MLrZJuqCHFeroOWjJSfOjZIyyw==",
+      "type": "package",
+      "path": "xamforms.controls.calendar/1.1.1",
+      "files": [
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.Droid.dll",
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.UWP.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/XamForms.Controls.Calendar.dll",
+        "lib/win81/XamForms.Controls.Calendar.Windows.dll",
+        "lib/win81/XamForms.Controls.Calendar.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.WinPhone.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.dll",
+        "xamforms.controls.calendar.1.1.1.nupkg.sha512",
+        "xamforms.controls.calendar.nuspec"
+      ]
+    },
     "Timesheets/1.0.0": {
       "type": "project",
       "path": "../Timesheets/Timesheets.csproj",
@@ -1590,6 +1627,7 @@
     "MonoAndroid,Version=v8.1": [
       "Realm >= 3.2.1",
       "Timesheets >= 1.0.0",
+      "XamForms.Controls.Calendar >= 1.1.1",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
@@ -1608,7 +1646,7 @@
       "projectName": "Timesheets.Android",
       "projectPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.Android/Timesheets.Android.csproj",
       "packagesPath": "/Users/mrc/.nuget/packages/",
-      "outputPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.Android/obj",
+      "outputPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.Android/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mrc/.config/NuGet/NuGet.Config"
@@ -1632,33 +1670,37 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
-          "Xamarin.Forms": {
+          "Realm": {
             "target": "Package",
-            "version": "3.1.0.697729"
+            "version": "[3.2.1, )"
+          },
+          "XamForms.Controls.Calendar": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Android.Support.v7.AppCompat": {
-            "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v4": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v7.CardView": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           },
-          "Realm": {
+          "Xamarin.Forms": {
             "target": "Package",
-            "version": "3.2.1"
+            "version": "[3.1.0.697729, )"
           }
         }
       }

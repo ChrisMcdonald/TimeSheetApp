@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms.Platform.iOS;
 
 namespace Timesheets.iOS
 {
@@ -24,6 +25,7 @@ namespace Timesheets.iOS
         {
             Xamarin.Calabash.Start();
             global::Xamarin.Forms.Forms.Init();
+            XamForms.Controls.iOS.Calendar.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

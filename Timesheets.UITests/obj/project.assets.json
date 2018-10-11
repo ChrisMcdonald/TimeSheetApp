@@ -129,7 +129,7 @@
       "projectName": "Timesheets.UITests",
       "projectPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/Timesheets.UITests.csproj",
       "packagesPath": "/Users/mrc/.nuget/packages/",
-      "outputPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/obj",
+      "outputPath": "/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mrc/.config/NuGet/NuGet.Config"
@@ -151,11 +151,11 @@
         "dependencies": {
           "NUnit": {
             "target": "Package",
-            "version": "2.6.4"
+            "version": "[2.6.4, )"
           },
           "Xamarin.UITest": {
             "target": "Package",
-            "version": "2.2.4"
+            "version": "[2.2.4, )"
           }
         }
       }

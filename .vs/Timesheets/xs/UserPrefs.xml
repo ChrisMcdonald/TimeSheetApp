@@ -1,35 +1,19 @@
 ﻿<Properties StartupConfiguration="{3800AE80-1DBB-4B02-A90A-300320D890A1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Timesheets Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Timesheets/Models/Day.cs">
     <Files>
-      <File FileName="Timesheets/Views/ItemDetailPage.xaml" Line="9" Column="15" />
-      <File FileName="Timesheets/Views/ItemsPage.xaml" Line="26" Column="15" />
-      <File FileName="Timesheets/Views/NewItemPage.xaml" Line="27" Column="15" />
-      <File FileName="Timesheets/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
-      <File FileName="Timesheets/ViewModels/BaseViewModel.cs" Line="35" Column="27" />
-      <File FileName="Timesheets/ViewModels/ItemDetailViewModel.cs" Line="1" Column="1" />
-      <File FileName="Timesheets/Models/Item.cs" Line="8" Column="36" />
+      <File FileName="Timesheets/Views/DayPage.xaml" Line="9" Column="1" />
+      <File FileName="Timesheets/Views/DayPage.xaml.cs" Line="6" Column="1" />
+      <File FileName="Timesheets/Models/Item.cs" Line="7" Column="20" />
+      <File FileName="Timesheets/Models/Project.cs" Line="1" Column="1" />
       <File FileName="Timesheets/Models/HomeMenuItem.cs" Line="1" Column="1" />
-      <File FileName="Timesheets/Services/IDataStore.cs" Line="7" Column="32" />
-      <File FileName="Timesheets/Services/MockDataStore.cs" Line="73" Column="13" />
-      <File FileName="Timesheets/ViewModels/ItemsViewModel.cs" Line="30" Column="10" />
-      <File FileName="Timesheets Status" />
+      <File FileName="Timesheets/Views/ItemDetailPage.xaml" Line="11" Column="15" />
+      <File FileName="Timesheets/Views/ItemsPage.xaml" Line="26" Column="15" />
+      <File FileName="Timesheets/Views/AboutPage.xaml" Line="68" Column="15" />
+      <File FileName="Timesheets/Views/MenuPage.xaml" Line="16" Column="15" />
+      <File FileName="Timesheets/Views/MenuPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Timesheets/FodyWeavers.xml" Line="4" Column="11" />
+      <File FileName="Timesheets/Models/Day.cs" Line="25" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Timesheets" expanded="True">
-            <Node name="Timesheets" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="Item.cs" selected="True" />
-              </Node>
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
