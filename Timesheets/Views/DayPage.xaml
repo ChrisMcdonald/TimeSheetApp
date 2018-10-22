@@ -3,6 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Timesheets.Views.DayPage" Title="{Binding Title}">
   <StackLayout Spacing="20" Padding="15">
         <Label Text="{Binding Day.Date, StringFormat='{}{0:dddd, MMMM d, yyyy}'}" Font="Bold" />
+        
+        <Entry Placeholder="Hours" Text="{ Binding NewHours.Hour}" Keyboard="Numeric"/>
+        <Entry Placeholder="Description" Text="{Binding NewHours.Description}" Keyboard="Text" IsSpellCheckEnabled="true" IsTextPredictionEnabled="true"/>
+        <Button Command="{Binding SaveDayCommand }" Text="Save" />
+      
+      
+      <ListView x:Name="DaysListView" ItemsSource="{Binding CurrentDay.Hours}" VerticalOptions="FillAndExpand" HasUnevenRows="true"  >
+          <ListView.ItemTemplate>
+              <DataTemplate>
+                  <ViewCell>
+                      <StackLayout Padding="10">
+                          <Label Text="{Binding Hour}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" FontSize="16" />
+                          <Label Text="{Binding Description}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemDetailTextStyle}" FontSize="13" />
+                      </StackLayout>
+                  </ViewCell>
+              </DataTemplate>
+          </ListView.ItemTemplate>
+      </ListView>
     </StackLayout>
     
 </ContentPage>

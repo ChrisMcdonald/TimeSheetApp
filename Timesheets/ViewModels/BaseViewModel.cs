@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using Realms;
 
 using Xamarin.Forms;
 
 using Timesheets.Models;
-using Timesheets.Services;
 
 namespace Timesheets.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>() ?? new MockDataStore();
+        //public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>() ?? new MockDataStore();
+        public  Realm _dataBase = Realm.GetInstance();
 
         bool isBusy = false;
         public bool IsBusy

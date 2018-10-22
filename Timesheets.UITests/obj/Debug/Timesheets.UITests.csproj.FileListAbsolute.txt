@@ -7,3 +7,12 @@
 /Users/mrc/Projects/Timesheets/Timesheets.UITests/obj/Debug/Timesheets.UITests.csproj.CopyComplete
 /Users/mrc/Projects/Timesheets/Timesheets.UITests/obj/Debug/Timesheets.UITests.dll
 /Users/mrc/Projects/Timesheets/Timesheets.UITests/obj/Debug/Timesheets.UITests.pdb
+/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/bin/Debug/Timesheets.UITests.dll
+/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/bin/Debug/Timesheets.UITests.pdb
+/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/bin/Debug/nunit.framework.dll
+/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/bin/Debug/Xamarin.UITest.dll
+/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/obj/Debug/Timesheets.UITests.csprojAssemblyReference.cache
+/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/obj/Debug/Timesheets.UITests.csproj.CoreCompileInputs.cache
+/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/obj/Debug/Timesheets.UITests.csproj.CopyComplete
+/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/obj/Debug/Timesheets.UITests.dll
+/Users/mrc/Projects/TimesheetApp/Timesheets.UITests/obj/Debug/Timesheets.UITests.pdb

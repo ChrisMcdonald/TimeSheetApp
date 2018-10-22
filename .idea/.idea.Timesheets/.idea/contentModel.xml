@@ -45,6 +45,7 @@
         <e p="Models" t="Include">
           <e p="Day.cs" t="Include" />
           <e p="HomeMenuItem.cs" t="Include" />
+          <e p="Hours.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="Project.cs" t="Include" />
         </e>
@@ -55,10 +56,7 @@
             </e>
           </e>
         </e>
-        <e p="Services" t="Include">
-          <e p="IDataStore.cs" t="Include" />
-          <e p="MockDataStore.cs" t="Include" />
-        </e>
+        <e p="Services" t="Include" />
         <e p="Timesheets.csproj" t="IncludeRecursive" />
         <e p="ViewModels" t="Include">
           <e p="AboutViewModel.cs" t="Include" />

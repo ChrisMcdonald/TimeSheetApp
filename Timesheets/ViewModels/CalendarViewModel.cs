@@ -36,12 +36,11 @@ namespace Timesheets.ViewModels
             get
             {
                 return new Command((obj) => {
-                    var day = new Day();
-                    day.Date = (System.DateTime)obj;
-                    if (day == null)
+                    string Date = obj.ToString();
+                    if (Date == null)
                         return;
 
-                    Application.Current.MainPage.Navigation.PushAsync(new DayPage(new  DayViewModel(day)));
+                    Application.Current.MainPage.Navigation.PushAsync(new DayPage(new  DayViewModel(Date)));
 
                     //Application.Current.MainPage.Navigation.PushAsync(new ItemsPage());
                 });

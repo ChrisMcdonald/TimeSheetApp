@@ -20,13 +20,8 @@ namespace Timesheets.Views
 
         public DayPage()
         {
-            var day = new Day
-            {
-                Date = DateTime.Now,
-                Description = "New Day"
-                
-            }; 
-            viewModel = new DayViewModel(day);
+            string date = DateTime.Now.ToString("MM/dd/yyyy"); 
+            viewModel = new DayViewModel(date);
             BindingContext = viewModel;
         }
     }

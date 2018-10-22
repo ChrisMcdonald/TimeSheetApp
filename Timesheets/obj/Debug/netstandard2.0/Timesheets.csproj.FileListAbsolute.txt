@@ -15,6 +15,9 @@
 /Users/mrc/Projects/Timesheets/Timesheets/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/mrc/Projects/Timesheets/Timesheets/obj/Debug/netstandard2.0/Timesheets.dll
 /Users/mrc/Projects/Timesheets/Timesheets/obj/Debug/netstandard2.0/Timesheets.pdb
+/Users/mrc/Projects/TimesheetApp/Timesheets/bin/Debug/netstandard2.0/Timesheets.deps.json
+/Users/mrc/Projects/TimesheetApp/Timesheets/bin/Debug/netstandard2.0/Timesheets.dll
+/Users/mrc/Projects/TimesheetApp/Timesheets/bin/Debug/netstandard2.0/Timesheets.pdb
 /Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/Timesheets.csprojAssemblyReference.cache
 /Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
@@ -28,9 +31,6 @@
 /Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/Timesheets.csproj.CoreCompileInputs.cache
 /Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/Timesheets.AssemblyInfoInputs.cache
 /Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/Timesheets.AssemblyInfo.cs
+/Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/Timesheets.dll
 /Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/Timesheets.pdb
-/Users/mrc/Projects/TimesheetApp/Timesheets/bin/Debug/netstandard2.0/Timesheets.deps.json
-/Users/mrc/Projects/TimesheetApp/Timesheets/bin/Debug/netstandard2.0/Timesheets.dll
-/Users/mrc/Projects/TimesheetApp/Timesheets/bin/Debug/netstandard2.0/Timesheets.pdb
-/Users/mrc/Projects/TimesheetApp/Timesheets/obj/Debug/netstandard2.0/XamlC.stamp

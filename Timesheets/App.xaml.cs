@@ -16,6 +16,8 @@ namespace Timesheets
 
             //MainPage = new MainPage();
             MainPage = new NavigationPage(new CalendarPage());
+            //MainPage = new CalendarPage();
+
         }
 
         protected override void OnStart()

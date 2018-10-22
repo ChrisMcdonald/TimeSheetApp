@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using Xamarin.Forms;
 using XamForms.Controls;
+using Xamarin.Forms.Xaml;
+
 
 namespace Timesheets.Views
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CalendarPage : ContentPage
     {
         Calendar _calendar;
